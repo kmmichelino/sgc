@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-color: #3b7d3b; /* Verde de fundo */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.login-container h2 {
+  margin-bottom: 40px;
+}
+
+.login-box {
+  background: linear-gradient(to right, #f39c12, #e67e22); /* gradiente laranja */
+  border-radius: 50px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.login-logo {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+.login-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.login-button {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff7043;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #ff5722;
+}
+
+.input-group input {
+  padding: 0.75rem;
+  border: 2px solid #d0d0d0;         /* cor da borda padrão */
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f8f9fb;         /* cor de fundo do input */
+  color: #333;                       /* cor do texto digitado */
+  transition: border 0.3s, background 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4a90e2;             /* borda azul ao focar */
+  background-color: #ffffff;         /* fundo branco ao focar */
+  outline: none;                     /* remove contorno padrão */
+}
+
+/* Cor do placeholder (texto dentro do input) */
+.input-group input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem; /* 👈 é este valor que define a distância */
+  font-size: 0.9rem;
+  font-weight: 600;
+}
